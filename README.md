@@ -2,7 +2,7 @@
 
 A predictive maintenance dashboard for turbofan engine Remaining Useful Life (RUL) prediction using advanced deep learning models.
 
-## 🚀 Features
+##  Features
 
 - **Interactive Dashboard**: Streamlit-based web interface for real-time RUL predictions
 - **Multiple Datasets**: Support for NASA C-MAPSS FD001-FD004 datasets with different operational conditions
@@ -11,7 +11,7 @@ A predictive maintenance dashboard for turbofan engine Remaining Useful Life (RU
 - **Q&A Engine**: Natural language interface for model and dataset queries
 - **Real-time Visualization**: Sensor degradation trends and prediction comparisons
 
-## 📊 Dataset
+##  Dataset
 
 This project uses the NASA C-MAPSS (Commercial Modular Aero-Propulsion System Simulation) dataset, which contains simulated turbofan engine degradation data under various operational conditions:
 
@@ -25,7 +25,7 @@ Each dataset includes:
 - Test data: Partial trajectories with unknown RUL
 - Ground truth RUL values for evaluation
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Models
 - **Transformer-only**: Pure attention-based architecture for sequence modeling
@@ -37,7 +37,7 @@ Each dataset includes:
 - **Dashboard**: Streamlit web application with interactive visualizations
 - **Q&A Engine**: Context-aware question answering system
 
-## 🛠️ Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 4. Place trained model files in `dashboard/assets/` directory
 
-## 🚀 Usage
+##  Usage
 
 ### Running the Dashboard
 
@@ -74,7 +74,7 @@ The dashboard will be available at `http://localhost:8501`
 5. **Feature Importance**: Understand which sensors contribute most to predictions
 6. **Q&A Interface**: Ask questions about the model and dataset
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 LifeSpanAI/
@@ -92,7 +92,7 @@ LifeSpanAI/
 └── models/                   # Model training scripts (if available)
 ```
 
-## 🔧 Dependencies
+##  Dependencies
 
 - **streamlit**: Web application framework
 - **tensorflow**: Deep learning framework
@@ -103,7 +103,7 @@ LifeSpanAI/
 - **seaborn**: Statistical visualization
 - **shap**: Model interpretability (optional)
 
-## 📈 Model Performance
+##  Model Performance
 
 The models are trained to predict RUL with a cap of 125 cycles. Performance metrics include:
 
@@ -111,7 +111,7 @@ The models are trained to predict RUL with a cap of 125 cycles. Performance metr
 - Mean Absolute Error (MAE)
 - Score function (asymmetric penalty for late predictions)
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -119,16 +119,16 @@ The models are trained to predict RUL with a cap of 125 cycles. Performance metr
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - NASA for providing the C-MAPSS dataset
 - The turbofan engine simulation community for benchmark datasets
 - TensorFlow and Keras for deep learning frameworks
 
-## 📞 Contact
+##  Contact
 
 For questions or support, please open an issue on GitHub.
